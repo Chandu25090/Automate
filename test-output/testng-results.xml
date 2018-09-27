@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Data:UserName]]>
+    </line>
+    <line>
+      <![CDATA[Row:1]]>
+    </line>
+    <line>
+      <![CDATA[Test:testA is passed and no photo]]>
+    </line>
+    <line>
+      <![CDATA[Data:UserName]]>
+    </line>
+    <line>
+      <![CDATA[Row:1]]>
+    </line>
+    <line>
+      <![CDATA[Test:testA is passed and no photo]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="56255" started-at="2018-09-27T10:21:50Z" finished-at="2018-09-27T10:22:46Z">
+    <groups>
+    </groups>
+    <test name="Test 1" duration-ms="37743" started-at="2018-09-27T10:21:50Z" finished-at="2018-09-27T10:22:27Z">
+      <class name="script.TestDemo">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:script.TestDemo@39c0f4a]" name="openApplication" is-config="true" duration-ms="35967" started-at="2018-09-27T10:21:50Z" finished-at="2018-09-27T10:22:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[localhost]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testA()[pri:0, instance:script.TestDemo@39c0f4a]" name="testA" duration-ms="1037" started-at="2018-09-27T10:22:26Z" finished-at="2018-09-27T10:22:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Data:UserName]]>
+            </line>
+            <line>
+              <![CDATA[Row:1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:script.TestDemo@39c0f4a]" name="closeApplication" is-config="true" duration-ms="694" started-at="2018-09-27T10:22:27Z" finished-at="2018-09-27T10:22:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testA status=SUCCESS method=TestDemo.testA()[pri:0, instance:script.TestDemo@39c0f4a] output=Data:UserName]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test:testA is passed and no photo]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.TestDemo -->
+    </test> <!-- Test 1 -->
+    <test name="Test 2" duration-ms="56255" started-at="2018-09-27T10:21:50Z" finished-at="2018-09-27T10:22:46Z">
+      <class name="script.TestDemo">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:script.TestDemo@31a5c39e]" name="openApplication" is-config="true" duration-ms="53058" started-at="2018-09-27T10:21:50Z" finished-at="2018-09-27T10:22:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[192.168.43.17]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testA()[pri:0, instance:script.TestDemo@31a5c39e]" name="testA" duration-ms="96" started-at="2018-09-27T10:22:43Z" finished-at="2018-09-27T10:22:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Data:UserName]]>
+            </line>
+            <line>
+              <![CDATA[Row:1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:script.TestDemo@31a5c39e]" name="closeApplication" is-config="true" duration-ms="3057" started-at="2018-09-27T10:22:43Z" finished-at="2018-09-27T10:22:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testA status=SUCCESS method=TestDemo.testA()[pri:0, instance:script.TestDemo@31a5c39e] output=Data:UserName]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test:testA is passed and no photo]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.TestDemo -->
+    </test> <!-- Test 2 -->
+  </suite> <!-- Suite -->
+</testng-results>

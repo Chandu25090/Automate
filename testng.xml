@@ -1,0 +1,16 @@
+<suite name="Suite" parallel="tests">
+  <test  name="Test 1">
+  <parameter name="ip" value="localhost"/>
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="script.TestDemo"/>
+    </classes>
+  </test> 
+  <test  name="Test 2">
+  <parameter name="ip" value="192.168.43.17"/>
+  <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="script.TestDemo"/>
+    </classes>
+  </test> 
+</suite> 
